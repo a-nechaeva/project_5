@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<musicBandCollection collectionCreationDate="2023-02-19T22:45:43.212237+03:00[Europe/Moscow]">
+    <musicBand>
+        <id>1</id>
+        <musicBand>Queen</musicBand>
+        <coordinates>
+            <x>55.0</x>
+            <y>29.0</y>
+        </coordinates>
+        <musicBandCreationDate>2023-02-19T22:45:43.212237+03:00[Europe/Moscow]</musicBandCreationDate>
+        <numberOfParticipants>4</numberOfParticipants>
+        <singlesCount>20</singlesCount>
+        <establishmentDate>1974-09-17</establishmentDate>
+        <studio>
+            <studioName>London</studioName>
+        </studio>
+    </musicBand>
+    <musicBand>
+        <id>2</id>
+        <musicBand>Kiss</musicBand>
+        <coordinates>
+            <x>60.0</x>
+            <y>29.0</y>
+        </coordinates>
+        <musicBandCreationDate>2023-02-19T22:45:43.212237+03:00[Europe/Moscow]</musicBandCreationDate>
+        <numberOfParticipants>6</numberOfParticipants>
+        <singlesCount>26</singlesCount>
+        <establishmentDate>1970-09-17</establishmentDate>
+        <studio>
+            <studioName>London</studioName>
+        </studio>
+    </musicBand>
+</musicBandCollection>

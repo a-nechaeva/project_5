@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="lab_5_JAVA:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b6e46c2-0be1-40e1-8b52-1974a20d77ff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/lab_5_JAVA_jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/lab_5_JAVA_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_5_JAVA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOHandlers/client/BasicReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOHandlers/client/CustomConsoleReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOHandlers/client/CustomFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOHandlers/receiver/MusicBandCollectionFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOHandlers/receiver/MusicBandCollectionFileWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOHandlers/receiver/MusicBandCollectionXMLFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOHandlers/receiver/MusicBandCollectionXMLFileWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/ConsoleClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/Invoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/MusicBandDataConsoleReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/PrettyPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/AbstractCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/AbstractCommandWithResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/Clear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/CommandWithResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/CountByNumberOfParticipants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/ExecuteScript.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/Exit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/GroupCountingByName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/Help.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/Insert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/PrintFieldDescendingSinglesCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/RemoveGreater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/RemoveGreaterKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/RemoveKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/RemoveLower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/Save.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/Show.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/Update.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/client/FileRecursionError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/client/InvalidCommandException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/client/InvalidScriptException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/client/WrongNumberOfArgumentsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/io/CustomIOException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/io/EndOfInputException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/io/FilePermissionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/io/InvalidFileDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/io/WrongArgumentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/receiver/CollectionKeyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Coordinates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/MusicBand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/MusicGenre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Studio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/helpers/ArgumentChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/helpers/MusicBandArgumentChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/receiver/MusicBandCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/receiver/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try1.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Tag Library Descriptor" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MFLz3Gt6ntAPyMzUvXyglRPKJ1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/lab_5_JAVA — копия — копия&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="lab5" value="input.xml" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="lab_5_JAVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b6e46c2-0be1-40e1-8b52-1974a20d77ff" name="Changes" comment="" />
+      <created>1677358658489</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677358658489</updated>
+      <workItem from="1677358658489" duration="10440000" />
+      <workItem from="1677435657010" duration="10887000" />
+      <workItem from="1677520430128" duration="7469000" />
+      <workItem from="1677571889829" duration="7236000" />
+      <workItem from="1677674546422" duration="12749000" />
+      <workItem from="1677770828847" duration="1553000" />
+      <workItem from="1678978409348" duration="4025000" />
+      <workItem from="1679092687048" duration="1366000" />
+      <workItem from="1680092526623" duration="770000" />
+      <workItem from="1680116666874" duration="8710000" />
+      <workItem from="1681318737557" duration="1221000" />
+      <workItem from="1681320503716" duration="14585000" />
+      <workItem from="1681342014365" duration="14009000" />
+      <workItem from="1682512705211" duration="31488000" />
+      <workItem from="1682582992220" duration="12324000" />
+      <workItem from="1682597970046" duration="10849000" />
+      <workItem from="1683671499789" duration="9760000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
