@@ -1,4 +1,4 @@
-package models.helpers;
+package objects.checkers;
 
 import exceptions.io.WrongArgumentException;
 

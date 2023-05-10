@@ -1,6 +1,6 @@
 package commands;
 
-import client.*;
+import clientSide.*;
 import receiver.*;
 
 public abstract class AbstractCommand implements Command{

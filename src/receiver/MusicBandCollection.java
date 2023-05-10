@@ -1,6 +1,6 @@
 package receiver;
 
-import models.MusicBand;
+import objects.MusicBand;
 
 import java.time.ZonedDateTime;
 import java.util.*;

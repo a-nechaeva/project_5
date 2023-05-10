@@ -1,4 +1,4 @@
-package IOHandlers.client;
+package fileUtilities.client;
 
 public interface BasicReader {
     String readLine();

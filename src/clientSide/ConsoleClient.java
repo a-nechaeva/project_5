@@ -1,13 +1,13 @@
-package client;
+package clientSide;
 
 import commands.*;
 import exceptions.client.*;
 import exceptions.io.*;
 import exceptions.receiver.*;
-import models.*;
-import models.helpers.*;
+import objects.*;
+import objects.checkers.*;
 import receiver.*;
-import IOHandlers.client.*;
+import fileUtilities.client.*;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -18,7 +18,7 @@ import java.util.Hashtable;
 import java.util.List;
 import java.util.Stack;
 
-import static client.MusicBandDataConsoleReader.*;
+import static clientSide.MusicBandDataConsoleReader.*;
 
 /**
  The ConsoleClient class implements the Client interface and is responsible for
@@ -39,7 +39,7 @@ public class ConsoleClient implements Client {
         try {
             invoker = new Invoker();
             receiver = new Receiver();
-            BasicReader consoleReader = new CustomConsoleReader();
+            BasicReader consoleReader = new ConsoleReader();
 
             System.out.println("Data loaded successfully. You are now in interactive mode\nType 'help' to see the list of commands\n");
 
@@ -101,7 +101,7 @@ public class ConsoleClient implements Client {
                 if (args.length != 0)
                     throw new WrongNumberOfArgumentsException();
                 Hashtable<Long, MusicBand> result = invoker.executeAndReturn(new Show(this, receiver));
-                PrettyPrinter.printMusicBandHashtable(result);
+                ConsoleWriter.printMusicBandHashtable(result);
             }
             case "insert" -> {
                 if (args.length != 1)
@@ -193,7 +193,7 @@ public class ConsoleClient implements Client {
                 invoker.execute(new Exit(this, receiver));
             }
             case "remove_greater" -> {
-                if (args.length != 1)
+                if (args.length != 0)
                     throw new WrongNumberOfArgumentsException();
                 boolean inScriptMode = inScriptMode();
                 String musicBandName = readMusicBandName(basicReader, inScriptMode);
@@ -208,7 +208,7 @@ public class ConsoleClient implements Client {
                         singlesCount, establishmentDate, genre, studioName));
             }
             case "remove_lower" -> {
-                if (args.length != 1)
+                if (args.length != 0)
                     throw new WrongNumberOfArgumentsException();
                 boolean inScriptMode = inScriptMode();
                 String musicBandName = readMusicBandName(basicReader, inScriptMode);
@@ -243,7 +243,7 @@ public class ConsoleClient implements Client {
                 if (args.length != 0)
                     throw new WrongNumberOfArgumentsException();
                 Hashtable<String, Integer> nameAndCount = invoker.executeAndReturn(new GroupCountingByName(this, receiver));
-                PrettyPrinter.printGroupCountingByName(nameAndCount);
+                ConsoleWriter.printGroupCountingByName(nameAndCount);
             }
             case "count_by_number_of_participants" -> {
                 if (args.length != 1)
@@ -266,7 +266,7 @@ public class ConsoleClient implements Client {
                     throw new WrongNumberOfArgumentsException();
                 List<MusicBand> musicBandList = invoker.executeAndReturn(new PrintFieldDescendingSinglesCount(this, receiver));
                 System.out.println("*singles count descended*");
-                PrettyPrinter.printMusicBandListSingles(musicBandList);
+                ConsoleWriter.printMusicBandListSingles(musicBandList);
             }
 
             default -> throw new InvalidCommandException(commandName);
@@ -334,7 +334,7 @@ public class ConsoleClient implements Client {
             if (pathStackContains(path))
                 throw new FileRecursionError(path);
 
-            BasicReader basicReader = new CustomFileReader(path);
+            BasicReader basicReader = new FileReader(path);
             pathStack.push(path);
             int lineCounter = 0;
             while (basicReader.hasNextLine()) {

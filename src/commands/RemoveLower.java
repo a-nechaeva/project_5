@@ -1,8 +1,8 @@
 package commands;
 
-import client.Client;
+import clientSide.Client;
 import exceptions.io.WrongArgumentException;
-import models.MusicGenre;
+import objects.MusicGenre;
 import receiver.Receiver;
 
 import java.time.LocalDate;

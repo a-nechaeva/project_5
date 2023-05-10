@@ -1,4 +1,4 @@
-package models;
+package objects;
 
 public class Coordinates {
     private Float x; //Значение поля должно быть больше -97, Поле не может быть null

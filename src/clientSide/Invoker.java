@@ -1,4 +1,4 @@
-package client;
+package clientSide;
 
 import java.util.Stack;
 

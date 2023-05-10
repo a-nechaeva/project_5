@@ -1,13 +1,12 @@
-package IOHandlers.receiver;
+package fileUtilities.receiver;
 
 import exceptions.io.*;
-import models.Coordinates;
-import models.MusicBand;
-import models.MusicGenre;
-import models.Studio;
+import objects.Coordinates;
+import objects.MusicBand;
+import objects.MusicGenre;
+import objects.Studio;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
@@ -21,7 +20,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeParseException;
 import java.util.Arrays;

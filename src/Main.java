@@ -1,6 +1,4 @@
-import client.ConsoleClient;
-
-import java.nio.file.Paths;
+import clientSide.ConsoleClient;
 
 /**
  * The Main class is responsible for running the application by creating a ConsoleClient object

@@ -1,18 +1,17 @@
-package IOHandlers.client;
+package fileUtilities.client;
 
 import exceptions.io.FilePermissionException;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.util.Scanner;
 
-public class CustomFileReader implements BasicReader{
+public class FileReader implements BasicReader{
     String path;
     Scanner scanner;
 
-    public CustomFileReader(String path) throws FileNotFoundException, FilePermissionException {
+    public FileReader(String path) throws FileNotFoundException, FilePermissionException {
         File file = new File(path);
         if (!file.exists())
             throw new FileNotFoundException("! file " + path + " not found !");
@@ -20,7 +19,7 @@ public class CustomFileReader implements BasicReader{
             throw new FilePermissionException("! no read and/or write permission for file " + path + "  !");
 
         this.path = path;
-        this.scanner = new Scanner(new BufferedReader(new FileReader(path)));
+        this.scanner = new Scanner(new BufferedReader(new java.io.FileReader(path)));
     }
 
     @Override

@@ -1,4 +1,4 @@
-package IOHandlers.receiver;
+package fileUtilities.receiver;
 
 import exceptions.io.*;
 import receiver.MusicBandCollection;

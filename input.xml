@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <musicBandCollection collectionCreationDate="2023-02-19T22:45:43.212237+03:00[Europe/Moscow]">
     <musicBand>
+        <id>5</id>
+        <musicBandName>we</musicBandName>
+        <coordinates>
+            <x>3.0</x>
+            <y>5.0</y>
+        </coordinates>
+        <musicBandCreationDate>2023-05-10T11:34:28.017165600+03:00[Europe/Moscow]</musicBandCreationDate>
+        <numberOfParticipants>2</numberOfParticipants>
+        <singlesCount>3</singlesCount>
+        <establishmentDate/>
+        <genre>RAP</genre>
+        <studio>
+            <studioName>-0</studioName>
+        </studio>
+    </musicBand>
+    <musicBand>
         <id>4</id>
         <musicBandName>wool</musicBandName>
         <coordinates>

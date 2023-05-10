@@ -1,12 +1,9 @@
 package commands;
 
-import client.Client;
-import models.MusicBand;
+import clientSide.Client;
 import receiver.Receiver;
 
-import java.util.HashMap;
 import java.util.Hashtable;
-import java.util.List;
 
 public class GroupCountingByName extends AbstractCommandWithResult<Hashtable<String, Integer>>{
     private Hashtable<String, Integer> result = null;

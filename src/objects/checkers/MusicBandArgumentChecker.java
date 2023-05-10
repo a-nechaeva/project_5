@@ -1,9 +1,9 @@
-package models.helpers;
+package objects.checkers;
 
 import exceptions.io.WrongArgumentException;
-import models.Coordinates;
-import models.MusicGenre;
-import models.Studio;
+import objects.Coordinates;
+import objects.MusicGenre;
+import objects.Studio;
 
 import java.util.Objects;
 

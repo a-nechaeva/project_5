@@ -1,6 +1,6 @@
-package client;
+package clientSide;
 
-import models.MusicBand;
+import objects.MusicBand;
 
 import java.time.format.DateTimeFormatter;
 import java.util.Hashtable;
@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * The PrettyPrinter class contains methods for printing movie data in a user-friendly way.
  */
-public class PrettyPrinter {
+public class ConsoleWriter {
     static final String dateTimeFormat = "dd.MM.yy HH:mm";
     static final String dateOnlyFormat = "dd.MM.yy";
     static final String keyFormat = "%5s |";

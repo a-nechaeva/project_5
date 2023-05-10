@@ -1,8 +1,8 @@
-package models;
+package objects;
 
 import exceptions.io.WrongArgumentException;
 
-import static models.helpers.MusicBandArgumentChecker.checkName;
+import static objects.checkers.MusicBandArgumentChecker.checkName;
 
 public class Studio {
     private String name; //Поле может быть null

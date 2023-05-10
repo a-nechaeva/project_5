@@ -1,7 +1,7 @@
 package commands;
 
-import client.Client;
-import models.MusicBand;
+import clientSide.Client;
+import objects.MusicBand;
 import receiver.Receiver;
 
 import java.util.List;

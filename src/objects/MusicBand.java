@@ -1,14 +1,13 @@
-package models;
+package objects;
 
 import exceptions.io.WrongArgumentException;
 import receiver.MusicBandCollection;
 
-import java.time.LocalDate;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Objects;
 
-import static models.helpers.MusicBandArgumentChecker.*;
+import static objects.checkers.MusicBandArgumentChecker.*;
 
 public class MusicBand implements Comparable<MusicBand>{
     private static Long nextID = 1L;

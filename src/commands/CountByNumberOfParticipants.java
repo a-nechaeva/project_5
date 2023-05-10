@@ -1,12 +1,8 @@
 package commands;
 
-import client.Client;
+import clientSide.Client;
 import exceptions.io.WrongArgumentException;
-import models.MusicBand;
 import receiver.Receiver;
-
-import java.util.HashMap;
-import java.util.List;
 
 public class CountByNumberOfParticipants extends AbstractCommand {
     private final int numberOfParticipants;

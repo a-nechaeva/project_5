@@ -1,7 +1,7 @@
-package IOHandlers.receiver;
+package fileUtilities.receiver;
 
 import exceptions.io.*;
-import models.MusicBand;
+import objects.MusicBand;
 import receiver.*;
 
 import java.io.*;

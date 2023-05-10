@@ -2,10 +2,10 @@ package commands;
 
 import exceptions.io.WrongArgumentException;
 import exceptions.receiver.CollectionKeyException;
-import models.MusicGenre;
+import objects.MusicGenre;
 
 import java.time.LocalDate;
-import client.*;
+import clientSide.*;
 import receiver.*;
 
 public class Update extends AbstractCommand{

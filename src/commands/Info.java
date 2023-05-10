@@ -1,6 +1,6 @@
 package commands;
 
-import client.Client;
+import clientSide.Client;
 import receiver.Receiver;
 
 public class Info extends AbstractCommandWithResult<String>{

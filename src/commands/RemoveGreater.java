@@ -1,12 +1,12 @@
 package commands;
 
-import client.Client;
-import models.MusicGenre;
+import clientSide.Client;
+import objects.MusicGenre;
 import receiver.Receiver;
 
 import java.time.LocalDate;
 import exceptions.io.*;
-import exceptions.receiver.*;
+
 public class RemoveGreater extends AbstractCommand{
     private final String musicBandName;
     private final Float x;

@@ -1,9 +1,9 @@
 package receiver;
 
-import IOHandlers.receiver.*;
+import fileUtilities.receiver.*;
 import exceptions.io.*;
 import exceptions.receiver.*;
-import models.*;
+import objects.*;
 
 import java.io.File;
 import java.io.FileNotFoundException;

@@ -2,11 +2,11 @@ package commands;
 
 import exceptions.io.WrongArgumentException;
 import exceptions.receiver.CollectionKeyException;
-import models.MusicGenre;
+import objects.MusicGenre;
 
 import java.time.LocalDate;
 import receiver.*;
-import client.*;
+import clientSide.*;
 
 public class Insert extends AbstractCommand{
     private final Long key;

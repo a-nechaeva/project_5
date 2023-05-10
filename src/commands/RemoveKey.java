@@ -1,6 +1,6 @@
 package commands;
 
-import client.Client;
+import clientSide.Client;
 import exceptions.receiver.CollectionKeyException;
 import receiver.Receiver;
 

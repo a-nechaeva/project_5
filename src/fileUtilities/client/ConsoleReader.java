@@ -1,4 +1,4 @@
-package IOHandlers.client;
+package fileUtilities.client;
 
 import exceptions.io.EndOfInputException;
 
@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
-public class CustomConsoleReader implements BasicReader{
+public class ConsoleReader implements BasicReader{
     private final Scanner scanner = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
 
     @Override
